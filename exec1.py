@@ -4,7 +4,7 @@ import exec2
 def  main():
 
     filename="test1"
-    print(f"begin")
+    print(f"begin 5.22")
     if os.path.exists(filename):
         os.remove(filename)
         print(f"delete'{filename}'")
